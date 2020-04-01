@@ -1,0 +1,19 @@
+{
+  "name": "sesion_02",
+  "version": "0.1.0",
+  "description": "MVC",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "keywords": [
+    "mvc",
+    "http"
+  ],
+  "author": "Bedu",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
