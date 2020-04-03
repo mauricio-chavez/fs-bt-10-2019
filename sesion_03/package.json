@@ -1,0 +1,17 @@
+{
+  "name": "sesion_03",
+  "version": "0.1.0",
+  "description": "REST",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "dependencies": {
+    "sqlite3": "^4.1.1"
+  }
+}
