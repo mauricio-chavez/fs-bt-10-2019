@@ -14,7 +14,7 @@ mongoose.connect(
   {useNewUrlParser: true, useUnifiedTopology: true},
   (err) => {
     if (err) {
-      console.error('Mongo is not connected...')
+      throw `MongoDB couldn't be connected.`
     } else {
       console.log('MongoDB connection successful...')
     }
