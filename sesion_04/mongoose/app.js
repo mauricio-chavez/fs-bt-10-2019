@@ -1,7 +1,6 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
-
 const foodRouter = require('./routes/food')
 
 if (process.env.NODE_ENV !== 'production') {
