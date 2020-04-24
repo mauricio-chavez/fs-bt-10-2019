@@ -27,13 +27,17 @@ const typeDefs = gql`
   }
 
   type Query {
-    movies(token: String!): [Movie]!
+    movies: [Movie]!
   }
 
   type Mutation {
     createMovie(name: String! director: String!): Movie!
     login(email: String! password: String!): Auth!
     signUp(registry: Registry!): User!
+  }
+
+  type Subscription {
+    movieAdded: Movie!
   }
 
 `
