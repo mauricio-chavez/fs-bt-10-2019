@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch</title>
+  </head>
+  <body>
+    <h1>Fetch</h1>
+    <p id="message">Cargando...</p>
+    <script>
+      const $message = document.querySelector('#message')
+      fetch('https://us-central1-bedu-5dcb3.cloudfunctions.net/express/')
+        .then((res) => res.json())
+        .then((data) => {
+          $message.textContent = data.message
+        })
+    </script>
+  </body>
+</html>
