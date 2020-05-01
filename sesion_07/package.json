@@ -1,0 +1,21 @@
+{
+  "name": "sesion_05",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app",
+    "populate": "node loadDatabase"
+  },
+  "dependencies": {
+    "apollo-server": "^2.12.0",
+    "axios": "^0.19.2",
+    "bcrypt": "^4.0.1",
+    "graphql": "^15.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.9"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.3"
+  }
+}
